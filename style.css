@@ -230,7 +230,7 @@ section .header {
 .blur3 {
   position: absolute;
   left: 0;
-  box-shadow: 0 0 1000px 40px #1d4ee8;
+  box-shadow: 0 0 1000px 85px #1d4ee8;
   z-index: -100;
 }
 footer {
