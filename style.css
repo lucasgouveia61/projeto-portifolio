@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@200;300;400;500;600;800&family=Roboto:wght@100&display=swap");
 
+/* Reset */
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +22,7 @@ body {
   font-family: "Poppins", serif;
   background-color: #18181b;
 }
-
+/* Menu */
 nav {
   max-width: 1200px;
   margin: auto;
@@ -86,6 +87,8 @@ nav {
 .btn:hover {
   background-color: #1d4ef8;
 }
+
+/* header */
 
 .container {
   max-width: 1200px;
