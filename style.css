@@ -240,7 +240,7 @@ section .header {
 .blur1 {
   position: relative;
   left: 1000px;
-  box-shadow: 0 0 1000px 90px #1d4ee8;
+  box-shadow: 0 0 900px 80px #1d4ed8;
   z-index: -100;
 }
 .blur2 {
@@ -256,6 +256,49 @@ section .header {
   z-index: -100;
 }
 
+.sobre {
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+.sobre-img img{
+  width: 40vh;
+  margin: 100px 100px;
+  border-radius: 50%;
+
+}
+
+.sobre h2{
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 4rem;
+  padding-bottom: 1rem;
+}
+.sobre span {
+  color: #1d4ed8;
+  font-weight: 600;
+}
+.sobre h3{
+  color: #ccc;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4rem;
+ 
+}
+.sobre p{
+  color: #ccc;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  padding-bottom: 1rem;
+  width: 60ch;
+ 
+}
 
 footer {
   position: relative;
